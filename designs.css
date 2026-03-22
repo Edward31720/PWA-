@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+header {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 15px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0195a4;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.profile-img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.about p {
+    color: #444;
+    font-size: 16px;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
