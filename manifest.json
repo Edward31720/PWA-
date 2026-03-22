@@ -1,7 +1,7 @@
 {
     "name": "PWA Demo",
     "short_name": "PWAdemo",
-    "start_url": "/",
+    "start_url": "portfolio.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#4CAF50",
